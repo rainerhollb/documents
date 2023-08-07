@@ -1,0 +1,26 @@
+My XCode Naming Conventions
+
+https://www.swift.org/documentation/api-design-guidelines/#general-conventions
+seems to make no restrictions about constants names.
+
+https://google.github.io/swift/#apples-api-style-guidelines
+is referencing to Swift conventions but makes more restrictions than Swift!
+
+It is not useful to use the Jump To Definition or Show Quick Help features to read the code.
+
+Naming constants and variables in same style result in badly readable code.
+In all themes Colors are not different in XCode for constants and variables.
+
+So I decided to use the Java convention to write constants completely in uppercase
+and with underscores as a substitute for the glorious camelCase syntax. :-(
+
+Types of constants and variables should be signaled by their names if possible.
+* Bool: is...
+* String: Use postfix ...Name, ...String or ...Text if ambiguity is possible or when it is useful.
+* numbers: ?
+
+XCode impressions:
+* I do not understand why the colours of a variable differ between declaration and usage.
+* The required class name or its abstraction "Self" for static variables is a very good idea. The 30 years old
+  naming convention "their" for the statics becomes obsolete - although many people
+  in the last decades relied on different colours or italic font in Java on Eclipse IDE.

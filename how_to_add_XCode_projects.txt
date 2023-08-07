@@ -1,0 +1,13 @@
+If an XCode project previously was under XCode source control
+and you want to add it to this parent project
+* to create an integrating repository of depending projects
+* or to avoid no longer in Xcode available repos after adding a new repo as described in
+  https://stackoverflow.com/questions/57847239/xcode-source-control-push-local-changes-stuck-on-loading
+execute in the parent project
+* cd <new project>
+* rm .DS_Store
+* sudo rm -R .git
+  use sudo to avoid questions for lots of files
+* rm .gitignore
+* rm -R .swiftpm
+  if exists

@@ -1,0 +1,10 @@
+git URL (Source) Keyword?
+
+https://stackoverflow.com/questions/2059326/git-equivalent-of-subversions-url-keyword-expansion
+mentions
+https://stackoverflow.com/questions/62264/dealing-with-svn-keyword-expansion-with-git-svn/5633162#5633162
+which offers a project but says it is not easy.
+
+Date will be updated everytime a file is touched. This would not be a problem for Source.
+
+Source may have the problem to be a local path, not a path of a repository.
