@@ -5,9 +5,10 @@ and you want to add it to this parent project
   https://stackoverflow.com/questions/57847239/xcode-source-control-push-local-changes-stuck-on-loading
 execute in the parent project
 * cd <new project>
-* rm .DS_Store
 * sudo rm -R .git
   use sudo to avoid questions for lots of files
-* rm .gitignore
 * rm -R .swiftpm
   if exists
+* add to .gitignore
+ .DS_Store
+ *.xcuserstat
