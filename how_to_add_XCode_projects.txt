@@ -11,3 +11,8 @@ execute in the parent project
 * add to .gitignore
  .DS_Store
  *.xcuserstat
+
+XCode source control is not reliable:
+* stashed changes can get lost
+* old versions of main are listed
+* XCode branch display does not notice a changed branch from Github Desktop when XCode source control is enabled. Else it does.
