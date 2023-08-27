@@ -1,7 +1,7 @@
 How To
 
 
-... add XCode projects to GitHub Desktop
+... add XCode projects to GitHub Desktop after previous XCode source control
 
 If an XCode project previously was under XCode source control
 and you want to add it to this parent project
@@ -27,3 +27,7 @@ XCode source control is not reliable:
 
 Maybe possible with the huge https://github.com/FLEXTool/FLEX project but it requires some maintenance to be adapted to the current iOS versions.
 
+
+... read crash dumps
+
+https://developer.apple.com/documentation/xcode/identifying-the-cause-of-common-crashes
